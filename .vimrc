@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Installed Plugins 
 Plugin 'scrooloose/syntastic'
 Plugin 'ervandew/supertab'
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -27,4 +28,7 @@ let g:syntastic_auto_jump=0
 " https://github.com/scrooloose/syntastic/wiki/Syntax-Checkers
 let g:syntastic_python_checkers=['pyflakes', 'pylint', 'python']
 
+" Powerline setup
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
+set laststatus=2
 
