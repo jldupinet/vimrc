@@ -9,6 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Installed Plugins 
 Plugin 'scrooloose/syntastic'
+Plugin 'ervandew/supertab'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
