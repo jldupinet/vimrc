@@ -12,6 +12,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'ervandew/supertab'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'wincent/command-t'
+Plugin 'tomtom/tcomment_vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
