@@ -37,3 +37,25 @@ let g:syntastic_python_checkers=['pyflakes', 'pylint', 'python']
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
 set laststatus=2
 
+" Vim UI Config
+colorscheme ron
+syntax enable
+filetype indent on
+set tabstop=4
+set softtabstop=4
+autocmd FileType python set sw=4
+autocmd FileType python set ts=4
+autocmd FileType python set sts=4
+set expandtab
+set number
+set relativenumber
+set showcmd
+set cursorline
+set wildmenu
+set lazyredraw
+set showmatch
+set incsearch
+set hlsearch
+
+" Key remaps
+:let mapleader = ","
